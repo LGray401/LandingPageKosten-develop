@@ -7,8 +7,8 @@
 			<strong>Direkter Kontakt:</strong><br />+49 30 921 49 214<br />info@sqlxpert.de
 		</p>
 	</div>
-	<p><a href="/impressum">Impressum</a></p>
-	<p><a href="/dsgvo">Datenschutz</a></p>
+	<p><a href="/">Impressum</a></p>
+	<p><a href="/">Datenschutz</a></p>
 </footer>
 
 <style global lang="scss">
