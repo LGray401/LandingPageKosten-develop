@@ -1,20 +1,17 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# landing-page-kosten
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+### installationsanweisung
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+1. node muss installiert sein (am besten v16+)
+2. aus dem Verzeichnis `npm install` ausführen
+3. mit `npm run dev` den development server starten
+4. im browser `localhost:3000` aufrufen
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+### to do
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- [x] fix layout shifting of ups
+- [x] fix margin overlap of last element in details
+- [ ] fix scrolling issues (possibly with `svelte-scrollto`?)
+- [ ] prevent culmulative layoutshift on image loading
+- [ ] make form more responsive (greyed out button, etc.)
+- [ ] add different images to details
