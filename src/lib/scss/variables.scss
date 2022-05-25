@@ -1,0 +1,55 @@
+// colors
+$colors: (
+    'white': #fff,
+    'red': #93282C,
+    'black': #3c3f3a,
+    'grey': #898c7a,
+    'orange': #f8ab26,
+    'darkblue': #1f6967,
+    'cyan': #009bbd,
+    'green': #79a231
+);
+
+// fonts
+$font-family: 'Nunito Sans', sans-serif;
+
+// sizes
+$heading1-size: (
+    'sm': 1.5rem,
+    'lg': 1.75rem
+);
+$heading2-size: (
+    'sm': 1.25rem,
+    'lg': 1.5rem
+);
+$heading3-size: (
+    'sm': 1rem,
+    'lg': 1.25rem
+);
+$text-size: (
+    'sm': 0.875rem,
+    'lg': 1rem
+);
+$nav-size: (
+    'sm': 5rem,
+    'lg': 5rem
+);
+$border-width: (
+    'sm': 1px,
+    'lg': 1px
+);
+
+$line-height: 1.5;
+
+// margins
+$margin-primary: (
+    'sm': 1em,
+    'lg': 2em
+);
+$margin-secondary: (
+    'sm': 0.5em,
+    'lg': 1em
+);
+
+// breakpoints
+$breakpoint: 30em;
