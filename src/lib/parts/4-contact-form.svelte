@@ -83,6 +83,7 @@
 				werden.</label
 			>
 		</p>
+		<!-- captcha -->
 		<Button iconSrc="/images/envelope.svg" iconAlt="Briefumschlag Icon" type="submit"
 			>Anfrage abschicken</Button
 		>
