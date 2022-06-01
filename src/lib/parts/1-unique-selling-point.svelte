@@ -19,7 +19,7 @@
 			Mit unserer detaillierten experten- sowie softwarebasierten Analyse optimieren wir
 			Datenbanksysteme, bei gleichzeitiger Beurteilung von Hardware- und Lizenzkosten.
 		</p>
-		<Button href="#contact" iconSrc="/images/arrow.svg" iconAlt="Pfeil" rotation="down"
+		<Button href="#contact" iconSrc="/images/svgs/button-arrow.svg" iconAlt="Pfeil" rotation="down"
 			>Ihre Anfrage senden</Button
 		>
 	</div>

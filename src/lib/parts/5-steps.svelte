@@ -13,9 +13,9 @@
 					alt="Clipboard"
 					class="steps__image-center"
 				/>
-				<img src="/images/hex.svg" alt="Hexagon" class="steps__image-hex" />
-				<img src="/images/hex_filled.svg" alt="Hexagon" class="steps__image-side" />
-				<img src="/images/arrow_right.svg" alt="Pfeil" class="steps__arrow-right" />
+				<img src="/images/svgs/hex.svg" alt="Hexagon" class="steps__image-hex" />
+				<img src="/images/svgs/hex_filled.svg" alt="Hexagon" class="steps__image-side" />
+				<img src="/images/svgs/arrow_right.svg" alt="Pfeil" class="steps__arrow-right" />
 			</div>
 			<div class="steps__textblock">
 				<h2>1. Kickoff-Meeting</h2>
@@ -32,9 +32,9 @@
 					alt="Clipboard"
 					class="steps__image-center"
 				/>
-				<img src="/images/hex.svg" alt="Hexagon" class="steps__image-hex" />
-				<img src="/images/hex_filled.svg" alt="Hexagon" class="steps__image-side" />
-				<img src="/images/arrow_left.svg" alt="Pfeil" class="steps__arrow-left" />
+				<img src="/images/svgs/hex.svg" alt="Hexagon" class="steps__image-hex" />
+				<img src="/images/svgs/hex_filled.svg" alt="Hexagon" class="steps__image-side" />
+				<img src="/images/svgs/arrow_left.svg" alt="Pfeil" class="steps__arrow-left" />
 			</div>
 			<div class="steps__textblock">
 				<h2>2. Systemanalyse</h2>
@@ -53,8 +53,8 @@
 					alt="Clipboard"
 					class="steps__image-center"
 				/>
-				<img src="/images/hex.svg" alt="Hexagon" class="steps__image-hex" />
-				<img src="/images/hex_filled.svg" alt="Hexagon" class="steps__image-side" />
+				<img src="/images/svgs/hex.svg" alt="Hexagon" class="steps__image-hex" />
+				<img src="/images/svgs/hex_filled.svg" alt="Hexagon" class="steps__image-side" />
 			</div>
 			<div class="steps__textblock">
 				<h2>3. Optimierung</h2>
@@ -65,7 +65,7 @@
 				</p>
 			</div>
 		</div>
-		<Button href="#contact" iconSrc="/images/arrow.svg" iconAlt="Pfeil" rotation="up"
+		<Button href="#contact" iconSrc="/images/svgs/button-arrow.svg" iconAlt="Pfeil" rotation="up"
 			>Ihre Anfrage senden</Button
 		>
 	</div>

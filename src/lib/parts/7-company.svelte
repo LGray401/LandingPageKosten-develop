@@ -97,4 +97,11 @@
 	.company__image {
 		max-width: 100%;
 	}
+
+	.company__partners {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		gap: map-get($margin-secondary, 'sm');
+	}
 </style>

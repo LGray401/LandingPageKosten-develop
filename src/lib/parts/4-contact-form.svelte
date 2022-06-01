@@ -83,7 +83,7 @@
 				werden.</label
 			>
 		</p>
-		<Button iconSrc="/images/envelope.svg" iconAlt="Briefumschlag Icon" type="submit"
+		<Button iconSrc="/images/svgs/envelope.svg" iconAlt="Briefumschlag Icon" type="submit"
 			>Anfrage abschicken</Button
 		>
 	</form>
