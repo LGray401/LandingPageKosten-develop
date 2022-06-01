@@ -8,7 +8,7 @@
 					alt="Clipboard"
 					class="details__image-center"
 				/>
-				<img src="/images/hex.svg" alt="hexagon" class="details__image-hex" />
+				<img src="/images/hex.svg" alt="Hexagon" class="details__image-hex" />
 				<div class="details__check">
 					<svg
 						width="58"
@@ -41,7 +41,7 @@
 					alt="Clipboard"
 					class="details__image-center"
 				/>
-				<img src="/images/hex.svg" alt="hexagon" class="details__image-hex" />
+				<img src="/images/hex.svg" alt="Hexagon" class="details__image-hex" />
 				<div class="details__check">
 					<svg
 						width="58"
@@ -73,7 +73,7 @@
 					alt="Clipboard"
 					class="details__image-center"
 				/>
-				<img src="/images/hex.svg" alt="hexagon" class="details__image-hex" />
+				<img src="/images/hex.svg" alt="Hexagon" class="details__image-hex" />
 				<div class="details__check">
 					<svg
 						width="58"
