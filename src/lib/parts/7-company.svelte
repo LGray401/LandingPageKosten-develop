@@ -1,21 +1,17 @@
+<script lang="ts">
+	import Image from '$lib/components/framed-image.svelte';
+</script>
+
 <div class="company">
 	<h2 class="company__title">Unser Unternehmen</h2>
 	<h2 class="company__subtitle">Realisierung zukunftsweisender SQL Datenbanklösungen</h2>
-	<h3 class="company__section-title">Unsere Mission</h3>
+	<h3 class="company__section-title"><span>Unsere Mission</span></h3>
 	<div class="company__section">
-		<div class="company__image-wrapper">
-			<img src="/images/sql-optimierung-berlin.jpg" alt="Team" class="company__image" />
-			<img
-				src="/images/bracket-left.svg"
-				alt="Bild Zierelement"
-				class="company__image-bracket left"
-			/>
-			<img
-				src="/images/bracket-right.svg"
-				alt="Bild Zierelement"
-				class="company__image-bracket right"
-			/>
-		</div>
+		<Image
+			src="/images/sql-optimierung-berlin.jpg"
+			alt="Brandenburger Tor"
+			class="company__image"
+		/>
 		<p>
 			Unser täglicher Ansporn ist es, gemeinsam mit unseren Kunden innovative und optimale SQL
 			Datenbanklösungen zu schaffen. Im Herzen von Berlin sind wir seit 2014 qualifizierter,
@@ -29,21 +25,9 @@
 			<li>Consulting und Training</li>
 		</ul>
 	</div>
-	<h3 class="company__section-title">Unsere Werte</h3>
+	<h3 class="company__section-title"><span>Unsere Werte</span></h3>
 	<div class="company__section">
-		<div class="company__image-wrapper">
-			<img src="/images/people-2569234_640.jpg" alt="Team" class="company__image" />
-			<img
-				src="/images/bracket-left.svg"
-				alt="Bild Zierelement"
-				class="company__image-bracket left"
-			/>
-			<img
-				src="/images/bracket-right.svg"
-				alt="Bild Zierelement"
-				class="company__image-bracket right"
-			/>
-		</div>
+		<Image src="/images/people-2569234_640.jpg" alt="Team" class="company__image" />
 		<p>
 			<span>Produktivität</span>. Wir entwickeln mit unseren Kunden vorausschauende
 			Lösungsstrategien, damit Probleme erst gar nicht entstehen.
@@ -59,4 +43,58 @@
 			der gemeinsamen Ziele.
 		</p>
 	</div>
+	<h3 class="company__section-title"><span>Unsere Partner</span></h3>
+	<div class="company__partners">
+		<img src="/images/logoipsum.png" alt="client logo" />
+		<img src="/images/logoipsum.png" alt="client logo" />
+		<img src="/images/logoipsum.png" alt="client logo" />
+		<img src="/images/logoipsum.png" alt="client logo" />
+	</div>
 </div>
+
+<style global lang="scss">
+	@use '../scss/variables' as *;
+
+	.company {
+		margin: calc(map-get($margin-primary, 'sm') * 2) map-get($margin-primary, 'sm');
+	}
+
+	.company__title {
+		text-align: center;
+	}
+
+	.company__subtitle {
+		text-align: center;
+		text-transform: none;
+
+		color: map-get($colors, 'red');
+	}
+
+	.company__section-title {
+		text-align: center;
+		text-transform: none;
+
+		display: flex;
+		align-items: center;
+
+		span {
+			flex-shrink: 0;
+			padding: 0 map-get($margin-secondary, 'sm');
+		}
+
+		&::before,
+		&::after {
+			display: block;
+			content: '';
+			border-top: 2px solid map-get($colors, 'red');
+			width: 100%;
+		}
+	}
+
+	.company__section {
+	}
+
+	.company__image {
+		max-width: 100%;
+	}
+</style>
